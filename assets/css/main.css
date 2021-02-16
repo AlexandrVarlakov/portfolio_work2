@@ -1,44 +1,51 @@
 @font-face {
   font-family: 'Lato';
-  src: url("../fonts/Lato-Medium.ttf");
+  src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.ttf") format("ttf");
   font-weight: 500;
-  font-style: normal; }
+  font-style: normal;
+  font-display: swap; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("../fonts/Lato-Regular.ttf");
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.ttf") format("ttf");
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  font-display: swap; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("../fonts/Lato-Thin.ttf");
+  src: url("../fonts/Lato-Thin.woff2") format("woff2"), url("../fonts/Lato-Thin.ttf") format("ttf");
   font-weight: 100;
-  font-style: normal; }
+  font-style: normal;
+  font-display: swap; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("../fonts/Lato-Heavy.ttf");
+  src: url("../fonts/Lato-Heavy.woff2") format("woff2"), url("../fonts/Lato-Heavy.ttf") format("ttf");
   font-weight: 800;
-  font-style: normal; }
+  font-style: normal;
+  font-display: swap; }
 
 @font-face {
   font-family: 'Lato';
-  src: url("../fonts/Lato-Semibold.ttf");
+  src: url("../fonts/Lato-Semibold.woff2") format("woff2"), url("../fonts/Lato-Semibold.ttf") format("ttf");
   font-weight: 600;
-  font-style: normal; }
+  font-style: normal;
+  font-display: swap; }
 
 @font-face {
   font-family: 'Avenir';
-  src: url("../fonts/Avenir-Light.ttf");
+  src: url("../fonts/Avenir-Light.woff2") format("woff2"), url("../fonts/Avenir-Light.ttf") format("ttf");
   font-weight: 100;
-  font-style: normal; }
+  font-style: normal;
+  font-display: swap; }
 
 @font-face {
   font-family: 'Raleway';
-  src: url("../fonts/Raleway-Bold.ttf");
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2"), url("../fonts/Raleway-Bold.ttf") format("ttf");
   font-weight: 700;
-  font-style: normal; }
+  font-style: normal;
+  font-display: swap; }
 
 * {
   margin: 0;
@@ -711,7 +718,7 @@ body {
     opacity: 0;
     width: 100%;
     height: 100%;
-    background-color: #222222cf;
+    background-color: #1e1e1ec4;
     position: absolute;
     top: 0;
     -webkit-transition: .3s;
